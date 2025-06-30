@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for night mode. -->
+    <style name="Base.Theme.GestionDeVisitas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+
+    <!-- El tema de la aplicación hereda del tema base -->
+    <style name="Theme.GestionDeVisitas" parent="Base.Theme.GestionDeVisitas" />
+</resources>
